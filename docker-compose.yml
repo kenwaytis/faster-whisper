@@ -3,7 +3,7 @@ version: "3.8"
 services:
   whisper:
     container_name: whisper
-    image: paidax/faster-whisper:0.0.4
+    image: paidax/faster-whisper:0.0.5
     deploy:
       resources:
         reservations:
@@ -14,4 +14,4 @@ services:
     restart: always
     ports:
       - 7650:7650
-    command: uvicorn main:app --port 7650 --host 0.0.0.0
+    command: tail -f /dev/null
