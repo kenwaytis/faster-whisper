@@ -3,7 +3,7 @@ version: "3.8"
 services:
   whisper:
     container_name: whisper
-    image: paidax/faster-whisper:0.0.2
+    image: paidax/faster-whisper:0.0.3
     deploy:
       resources:
         reservations:
