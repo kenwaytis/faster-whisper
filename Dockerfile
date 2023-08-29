@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.7.0-cudnn8-runtime-ubuntu22.04
+FROM nvidia/cuda:11.7.1-runtime-ubuntu22.04
 
 ENV PYTHON_VERSION=3.10
 RUN export DEBIAN_FRONTEND=noninteractive \
